@@ -20,3 +20,6 @@ function wrapAdjective(symbol = "*"){
 
 let emphasize =  wrapAdjective("*")
 console.log(emphasize("a hard worker"))
+
+let emphatic = wrapAdjective("||")
+console.log(emphatic("a dedicated programmer"))
