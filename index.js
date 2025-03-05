@@ -11,9 +11,11 @@ const mondayWork = function(activity = "go to the office"){
 
 function wrapAdjective(symbol = "*"){
 
-    return InnerWrap = function(message = "special"){
+    const InnerWrap = function(message = "special"){
         return `You are ${symbol}${message}${symbol}!`
     }
+
+    return InnerWrap("a hard worker")
 
     
 }
@@ -23,9 +25,11 @@ console.log(emphasize("a hard worker"))
 
 function wrapAdjective(symbol = "||"){
 
-    return InnerWrap = function(message = "special"){
+    const InnerWrap = function(message = "special"){
         return `You are ${symbol}${message}${symbol}!`
     }
+
+    return InnerWrap("a dedicated programmer")
 
     
 }
